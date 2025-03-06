@@ -13,12 +13,12 @@ The chatbot uses a pipeline architecture consisting of the following agents:
 3.  **Summarization Agent:** This agent takes the retrieved text from the Query Agent and generates a simplified and concise summary using OpenAI's GPT models.  It aims to convert legal jargon into plain language.
 4.  **Response to User:** The summarized answer is presented to the user.
 
-![Architecture Diagram](docs/architecture.png)  *(Optional:  Include a simple diagram if you have one)*
+![Architecture Diagram](docs/architecture.png) 
 
 ## Key Features
 
 *   **Multi-Agent Architecture:** Employs a modular design with specialized agents for efficient information retrieval and summarization.
-*   **Legal Knowledge Base:**  Utilizes [Guide to Litigation in India](https://example.com/guide_to_litigation) and [Legal Compliance & Corporate Laws by ICAI](https://example.com/corporate_laws) (replace with actual URLs if available) as trusted data sources.
+*   **Legal Knowledge Base:**  Utilizes [Guide to Litigation in India](https://www.cyrilshroff.com/wp-content/uploads/2020/09/Guide-to-Litigation-in-India.pdf) and [Legal Compliance & Corporate Laws by ICAI](https://kb.icai.org/pdfs/PDFFile5b28c9ce64e524.54675199.pdf) (replace with actual URLs if available) as trusted data sources.
 *   **Simplified Language:** Converts complex legal terms into easy-to-understand explanations.
 *   **OpenAI Integration:** Leverages powerful language models for text summarization and question answering.
 
