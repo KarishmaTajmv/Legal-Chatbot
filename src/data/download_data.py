@@ -3,8 +3,8 @@ import requests
 
 # Define the URLs of the legal documents (replace with actual URLs)
 DOCUMENT_URLS = {
-    "guide_to_litigation_india.pdf": "https://example.com/guide_to_litigation.pdf",
-    "legal_compliance_corporate_laws.pdf": "https://example.com/corporate_laws.pdf",
+    "guide_to_litigation_india.pdf": "https://www.cyrilshroff.com/wp-content/uploads/2020/09/Guide-to-Litigation-in-India.pdf",
+    "legal_compliance_corporate_laws.pdf": "https://kb.icai.org/pdfs/PDFFile5b28c9ce64e524.54675199.pdf",
 }
 
 # Define the directory to save the documents
