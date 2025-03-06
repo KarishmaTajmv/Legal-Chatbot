@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# .env file (containing secrets)
+.env
+
+# Log files
+*.log
+
+# macOS files
+.DS_Store
+
+# IDE-specific files (optional)
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
