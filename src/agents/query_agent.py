@@ -1,5 +1,5 @@
 from langchain.chains import RetrievalQA
-from langchain.llms import OpenAI # Or another LLM
+from langchain.llms import OpenAI 
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 
@@ -29,10 +29,10 @@ class QueryAgent:
             str: The generated answer.
         """
         qa_chain = RetrievalQA.from_chain_type(
-            llm=self.llm,  # Or another LLM (e.g., GPT-3.5, GPT-4)
-            chain_type="stuff",  # "stuff" is simplest, but consider "map_reduce" for large documents
+            llm=self.llm, 
+            chain_type="stuff",  
             retriever=self.db.as_retriever(search_kwargs={'k': 3}),
-            return_source_documents=False # Adjust based on whether you want to show sources
+            return_source_documents=False 
         )
         result = qa_chain({"query": query})
         return result["result"]
